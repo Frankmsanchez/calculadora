@@ -1,0 +1,40 @@
+:root{
+    --color-naranja:#8A2BE2
+}
+.calculadora{
+    width: 219px;
+    height: 220px;
+    margin-left: 40%;
+    background-color: rgb(0,0,0);
+    border-radius:8px;
+    padding: 5px
+}
+
+input[type="textfield"]{
+    width: 100%;
+    border:none;
+    margin-left:1px;
+    
+}
+
+input[type="button"]{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem; 
+    border: 1px solid;   
+}
+
+input[type="reset"]{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+.calculator{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.color{
+    background-color: var(--color-naranja);
+}
